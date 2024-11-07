@@ -1,1 +1,47 @@
-venv
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+*.log
+*.pot
+*.pydevproject
+*.coverage
+*.coverage.*
+*.tox
+*.nox
+*.coverage
+*.hypothesis
+*.mypy_cache/
+*.dmypy.json
+*.pylintrc
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+
+# Environment files
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# IDEs
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
