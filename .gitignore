@@ -1,1 +1,56 @@
-venv
+# Ambientes Virtuais
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Arquivos do Sistema Operacional
+*.DS_Store
+Thumbs.db
+
+# Arquivos de Configuração do Editor
+.idea/
+.vscode/
+
+# Arquivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Logs e Saídas
+*.log
+*.pot
+*.pyc
+
+# Configurações do Pytest e Cobertura de Testes
+.pytest_cache/
+htmlcov/
+.tox/
+.coverage
+*.cover
+coverage.xml
+nosetests.xml
+*.tmp
+
+# Arquivos do Django
+db.sqlite3
+*.sqlite3
+
+# Arquivos de Mídia e Uploads
+media/
+staticfiles/
+static/
+
+# Arquivos de Migrations
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Dependências
+Pipfile
+Pipfile.lock
+
+# Configurações do IDE e Ambientes
+*.env
+.env.*
